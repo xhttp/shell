@@ -1,5 +1,55 @@
-./configure  --with-config-file-path=/usr/local/php/etc --enable-opcache --prefix=/usr/local/php --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql --with-iconv-dir=/usr/local --with-freetype-dir --with-jpeg-dir --with-png-dir --with-zlib --with-libxml-dir=/usr --enable-xml --disable-rpath --enable-discard-path --enable-safe-mode --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --with-curl --with-curlwrappers --enable-mbregex --enable-fastcgi --enable-fpm --enable-force-cgi-redirect --enable-mbstring --with-gd --enable-gd-native-ttf --with-openssl --enable-pcntl --enable-sockets --with-ldap --with-ldap-sasl --with-xmlrpc --enable-zip --enable-soap --enable-pdo
+./configure  
+--with-config-file-path=/usr/local/php/etc 
+--enable-opcache --prefix=/usr/local/php 
+--with-mysql=mysqlnd 
+--with-mysqli=mysqlnd 
+--with-pdo-mysql 
+--with-iconv-dir=/usr/local 
+--with-freetype-dir 
+--with-jpeg-dir 
+--with-png-dir 
+--with-zlib 
+--with-libxml-dir=/usr 
+--enable-xml 
+--disable-rpath 
+--enable-discard-path 
+--enable-safe-mode 
+--enable-bcmath 
+--enable-shmop 
+--enable-sysvsem 
+--enable-inline-optimization 
+--with-curl 
+--with-curlwrappers 
+--enable-mbregex 
+--enable-fastcgi 
+--enable-fpm 
+--enable-force-cgi-redirect 
+--enable-mbstring 
+--with-gd 
+--enable-gd-native-ttf 
+--with-openssl 
+--enable-pcntl 
+--enable-sockets 
+--with-ldap 
+--with-ldap-sasl 
+--with-xmlrpc 
+--enable-zip 
+--enable-soap 
+--enable-pdo
 
 
 
---prefix=/usr/local/nginx --error-log-path=/tmp/nginx/error.log --pid-path=/tmp/nginx.pid --user=www --group=www --with-http_ssl_module --with-http_gzip_static_module --http-log-path=/tmp/nginx/access.log --http-client-body-temp-path=/tmp/nginx/client --http-proxy-temp-path=/tmp/nginx/proxy --http-fastcgi-temp-path=/tmp/nginx/fcgi --with-http_stub_status_module --add-module=/data/soft/ngx_devel_kit --add-module=/data/soft/lua-nginx-module
+--prefix=/usr/local/nginx 
+--error-log-path=/tmp/nginx/error.log 
+--pid-path=/tmp/nginx.pid 
+--user=www 
+--group=www 
+--with-http_ssl_module 
+--with-http_gzip_static_module 
+--http-log-path=/tmp/nginx/access.log 
+--http-client-body-temp-path=/tmp/nginx/client 
+--http-proxy-temp-path=/tmp/nginx/proxy 
+--http-fastcgi-temp-path=/tmp/nginx/fcgi 
+--with-http_stub_status_module 
+--add-module=/data/soft/ngx_devel_kit 
+--add-module=/data/soft/lua-nginx-module
